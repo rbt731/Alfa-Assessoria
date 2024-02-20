@@ -6,10 +6,34 @@
     width: 6vh
 }
 
-.pa{
-    padding: 50px;
+.px{
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .w{
     width: 400px;
+}
+
+.text{
+    text-align: center;
+}
+
+.pt{
+    padding-top: 50px;
+}
+
+.pt2{
+    padding: 100px;
+}
+
+
+@media screen and (max-width: 750px) {
+    .fs{
+        font-size: 20px;
+        padding: 20px;
+    }
+    .fs1{
+        font-size: 20px;
+    }
 }
